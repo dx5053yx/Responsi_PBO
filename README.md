@@ -10,12 +10,17 @@
 
 Dari folder proyek, jalankan perintah berikut di terminal:
 
-```bash
+
 - compail dulu semuanya
+```bash
 javac -d bin src/*.java
+```
 - lalu jalankan
+```bash
 java -cp bin Main
+```
 - atau masuk dulu ke direktory bin
+```bash
 java Main
 ```
 
