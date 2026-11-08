@@ -1,7 +1,7 @@
 public abstract class TransaksiSPBU {
     public static final String NAMA_SPBU = "SPBU Sederhana";
     public static final double HARGA_PERTALITE = 10000.0;
-    public static final double HARGA_PERTAMAX = 12900.0;
+    public static final double HARGA_PERTAMAX = 15950.0;
 
     private final String nomorTransaksi;
     private String namaPelanggan;

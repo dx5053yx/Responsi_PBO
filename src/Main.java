@@ -10,13 +10,13 @@ public class Main {
         promoPertalite.tampilkanPromo();
 
         System.out.println("\nTransaksi kedua\n");
-        PengisianPertamax objekPertamax = new PengisianPertamax("TRX-002", "Dina");
+        PengisianPertamax objekPertamax = new PengisianPertamax("TRX-002", "aceng");
         objekPertamax.setJumlahLiter(5.0);
 
         OperasionalSPBU pertamax = objekPertamax;
         pertamax.tampilkanDetail();
         pertamax.prosesPengisian();
-        pertamax.bayar(70000.0);
+        pertamax.bayar(100000.0);
         pertamax.cetakStruk();
     }
 }
